@@ -12,7 +12,9 @@ module.exports = {
         'ecmaVersion': 13,
         'sourceType': 'module',
     },
-    plugins: ['@typescript-eslint'],
+    plugins: [
+        'eslint-plugin-html',
+    ],
     overrides: [
         {
             'files': [
