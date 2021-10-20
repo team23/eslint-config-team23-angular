@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.7
+- Add eslint rules for *.ts files
+
 ## v1.0.6
 - Add **eslint-plugin-html** to dependency to be able to lint html files
 
