@@ -26,6 +26,16 @@ If you've enabled `eslint` locally within your project, just set your `.eslintrc
     "overrides": [
         {
             "files": [
+                "*.ts",
+                "*.tsx"
+            ],
+            "extends": [
+                "eslint-config-team23-angular"
+            ],
+            "rules": {}
+        },
+        {
+            "files": [
                 "*.html"
             ],
             "extends": [
