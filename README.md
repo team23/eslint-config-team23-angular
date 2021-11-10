@@ -53,13 +53,12 @@ Simply add a `"rules"` key to your config, then add your overrides and additions
 ## Development
 
 #### Rules that should be included here
- - eslint rules
- - tslint rules
  - angular rules (including ones that relate to templates)
 
 #### Rules that should NOT be included here
- - nx rules 
- - rules from other frameworks, libraries, etc.
+ - eslint rules
+ - @typescript-eslint rules
+ - rules from other frameworks (react, vue), libraries (nx), etc.
 
 ### Proposing rule changes
 
