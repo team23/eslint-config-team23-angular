@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.8
+- Add support for @angular@13
+
 ## v1.0.7
 - Add eslint rules for *.ts files
 
