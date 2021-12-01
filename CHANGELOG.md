@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.9
+- Add support for eslint@8
+
 ## v1.0.8
 - Add support for @angular@13
 
