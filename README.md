@@ -5,8 +5,8 @@ A set of eslint rules used by TEAM23 for standard angular projects
 ## Installation in your project
 Add the library to your `package.json` as `devDependency`
 
-```json
-"eslint-config-team23-angular": "git+https://gitlab+deploy-token-XY:DEPLOY_TOKEN_PW@git.team23.de/team23/eslint-config-team23-angular.git#v1.0.5",
+```bash
+npm i --save-dev @team23/eslint-config-team23-angular
 ```
 
 ### Usage in your project
@@ -16,7 +16,7 @@ If you've enabled `eslint` locally within your project, just set your `.eslintrc
 #### Extend Globally
 ```json
 {
-    "extends": "eslint-config-team23-angular"
+    "extends": "@team23/eslint-config-team23-angular"
 }
 ```
 
@@ -30,7 +30,7 @@ If you've enabled `eslint` locally within your project, just set your `.eslintrc
                 "*.tsx"
             ],
             "extends": [
-                "eslint-config-team23-angular"
+                "@team23/eslint-config-team23-angular"
             ],
             "rules": {}
         },
@@ -39,7 +39,7 @@ If you've enabled `eslint` locally within your project, just set your `.eslintrc
                 "*.html"
             ],
             "extends": [
-                "eslint-config-team23-angular"
+                "@team23/eslint-config-team23-angular"
             ],
             rules: {}
         }
@@ -53,7 +53,7 @@ Simply add a `"rules"` key to your config, then add your overrides and additions
 
 ```json
 {
-    "extends": "eslint-config-team23-angular"
+    "extends": "@team23/eslint-config-team23-angular"
     "rules": {
         "@angular-eslint/template/no-any": "off"
     }
