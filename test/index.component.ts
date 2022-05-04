@@ -6,7 +6,13 @@ import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
     changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class IndexComponent implements OnInit {
+    public items?: Array<unknown>
+
     public ngOnInit(): void {
         console.log(this);
+    }
+
+    public trackBy(index: number): number {
+        return index;
     }
 }
