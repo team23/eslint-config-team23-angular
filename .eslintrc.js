@@ -9,7 +9,7 @@ module.exports = {
             ],
             "parserOptions": {
               "project": [
-                "tsconfig.json"
+                "tsconfig.base.json"
               ],
               "createDefaultProgram": true
             },
