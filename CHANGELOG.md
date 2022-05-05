@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.0.1
+- Use **tsconfig.base.json** instead of **tsconfig.json**
+
+## v2.0.0
+- Clean new version
+
 ## v1.0.9
 - Add support for eslint@8
 
