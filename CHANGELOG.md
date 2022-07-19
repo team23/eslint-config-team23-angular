@@ -1,5 +1,8 @@
 # Changelog
 
+## v2.0.2
+- Add support for @angular@14
+
 ## v2.0.1
 - Use **tsconfig.base.json** instead of **tsconfig.json**
 
