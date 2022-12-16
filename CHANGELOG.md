@@ -1,5 +1,9 @@
 # Changelog
 
+## v15.0.0
+- Update all dependencies
+- Adapt version to major angular version
+
 ## v2.0.2
 - Add support for @angular@14
 
