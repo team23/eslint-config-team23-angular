@@ -1,5 +1,8 @@
 # Changelog
 
+## v15.0.1
+- change path of typescript parserOptions
+
 ## v15.0.0
 - Update all dependencies
 - Adapt version to major angular version
