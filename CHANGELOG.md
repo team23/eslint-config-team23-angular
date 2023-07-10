@@ -1,8 +1,10 @@
 # Changelog
 
-## v15.1.0
+## v16.0.0
 - Update all dependencies
-- Adapt version to major angular version
+- Update version to major angular version
+### BREAKING CHANGES
+- Only Angular 16 is supported by eslint-config-team23-angular 16
 
 ## v15.0.1
 - change path of typescript parserOptions
