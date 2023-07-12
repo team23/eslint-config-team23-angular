@@ -1,5 +1,10 @@
 # Changelog
 
+## v16.0.0
+### Breaking Change
+- Update `@angular` as peerDependency to version `^16.0.0`
+- Update `@angular-eslint` as peerDependency to version `^16.0.0`
+
 ## v15.0.1
 - change path of typescript parserOptions
 
