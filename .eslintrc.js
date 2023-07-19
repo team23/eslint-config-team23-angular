@@ -8,7 +8,7 @@ module.exports = {
                 '*.jsx',
             ],
             'parserOptions': {
-                'project': ['tsconfig.?*.json'],
+                'project': true,
                 'createDefaultProgram': true,
             },
             'extends': [

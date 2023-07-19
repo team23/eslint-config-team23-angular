@@ -1,5 +1,8 @@
 # Changelog
 
+## v16.0.1
+- Update `@typescript-eslint` as peerDependency to version `^6.0.0`
+
 ## v16.0.0
 ### Breaking Change
 - Update `@angular` as peerDependency to version `^16.0.0`
