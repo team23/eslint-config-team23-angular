@@ -13,5 +13,5 @@ lint:
       - next
       - merge_requests
   script:
-    - npm ci
+    - npm install
     - npm run lint
