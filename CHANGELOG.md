@@ -1,5 +1,8 @@
 # Changelog
 
+## v16.1.1
+- Disable `@typescript-eslint/promise-function-async` for angular `.routes.ts` files
+
 ## v16.1.0
 - Switch the accessibility rules in the `@angular-eslint/eslint-plugin-template` dependency to `error`
 

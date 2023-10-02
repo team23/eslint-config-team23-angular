@@ -89,5 +89,11 @@ module.exports = {
                 '@angular-eslint/template/valid-aria': 'error',
             },
         },
+        {
+            "files": [ "*.routes.ts" ],
+            "rules": {
+               "@typescript-eslint/promise-function-async": "off"
+            }
+        },
     ],
 };
