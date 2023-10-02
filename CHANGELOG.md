@@ -2,7 +2,6 @@
 
 ## v16.1.0
 - Switch the accessibility rules in the `@angular-eslint/eslint-plugin-template` dependency to `error`
-- Update dependencies
 
 ## v16.0.1
 - Update `@typescript-eslint` as peerDependency to version `^6.0.0`
