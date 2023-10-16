@@ -87,12 +87,26 @@ module.exports = {
                 '@angular-eslint/template/role-has-required-aria': 'error',
                 '@angular-eslint/template/table-scope': 'error',
                 '@angular-eslint/template/valid-aria': 'error',
+                '@angular-eslint/template/attributes-order': [
+                    'error',
+                    {
+                        alphabetical: false,
+                        order: [
+                            'STRUCTURAL_DIRECTIVE',
+                            'TEMPLATE_REFERENCE',
+                            'ATTRIBUTE_BINDING',
+                            'INPUT_BINDING',
+                            'TWO_WAY_BINDING',
+                            'OUTPUT_BINDING',
+                        ],
+                    },
+                ],
             },
         },
         {
-            "files": [ "*.routes.ts" ],
+            "files": ["*.routes.ts"],
             "rules": {
-               "@typescript-eslint/promise-function-async": "off"
+                "@typescript-eslint/promise-function-async": "off"
             }
         },
     ],

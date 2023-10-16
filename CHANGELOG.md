@@ -1,5 +1,9 @@
 # Changelog
 
+## v17.0.0
+### Breaking Change
+- Add `@angular-eslint/template/attributes-order` rule for ordering template attributes
+
 ## v16.1.1
 - Disable `@typescript-eslint/promise-function-async` for angular `.routes.ts` files
 
