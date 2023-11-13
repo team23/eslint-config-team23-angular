@@ -2,6 +2,7 @@
 
 ## v17.0.0
 ### Breaking Change
+- The major version primarily communicates the alignment with Angular's major version. Only Angular 17 is supported.
 - Add `@angular-eslint/template/attributes-order` rule for ordering template attributes
 - Add `@angular-eslint/template/@angular-eslint/template/prefer-self-closing-tags` rule for forcing self closing tags
 
