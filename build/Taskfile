@@ -37,3 +37,8 @@ task:version:update() {
     cd .. && \
     npm version "v${VERSION_CLEAN}" -m "feat(v${VERSION_CLEAN}): release new version"
 }
+
+task:deploy() {
+    cd .. && \
+    npm publish --access public
+}
