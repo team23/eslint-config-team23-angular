@@ -3,6 +3,7 @@
 ## v17.0.0
 ### Breaking Change
 - Add `@angular-eslint/template/attributes-order` rule for ordering template attributes
+- Add `@angular-eslint/template/@angular-eslint/template/prefer-self-closing-tags` rule for forcing self closing tags
 
 ## v16.1.1
 - Disable `@typescript-eslint/promise-function-async` for angular `.routes.ts` files
