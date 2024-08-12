@@ -1,5 +1,8 @@
 # Changelog
 
+## v17.0.1
+- Update compatibilities to latest versions
+
 ## v17.0.0
 ### Breaking Change
 - The major version primarily communicates the alignment with Angular's major version. Only Angular 17 is supported.
