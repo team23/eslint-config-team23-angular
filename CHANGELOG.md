@@ -1,5 +1,9 @@
 # Changelog
 
+## v18.0.0
+### Breaking Change
+- Update `@angular` as peerDependency to version `^18.0.0`
+
 ## v17.0.1
 - Update compatibilities to latest versions
 
