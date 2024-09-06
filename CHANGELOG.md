@@ -1,5 +1,9 @@
 # Changelog
 
+## v18.0.1
+### Changes
+- Bump `eslint-plugin-html` as peerDependency to version `^8.0.0`
+
 ## v18.0.0
 ### Breaking Change
 - Update `@angular` as peerDependency to version `^18.0.0`
